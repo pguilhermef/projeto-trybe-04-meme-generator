@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+  <h1>O Incrível Gerador de Memes</h1>
+
+  <section id="container-section">
+    <div>
+    <label for="text-input">Texto para o meme:
+      <input type="text" id="text-input" placeholder="Escreva sua MARAVILHOSA frase aqui!" maxlength="60">
+    </label>
+    </div>
+    <div>
+      <label for="meme-insert"> Foto para o meme: </label>
+      <input type="file" id="meme-insert" accept="image/* name="image"/>
+    </div>
+  </section>
+
+  <section id="meme-image-container">
+    <img id="meme-image">
+    <p id="meme-text"></p>
+  </section>  
+
+  <section id="board-btn">
+    <button id="fire">Fire</button>
+    <button id="water">Water</button>
+    <button id="earth">Earth</button>
+  </section>
+
+  <section id="container-memes">
+    <img src="./imgs/meme1.png" alt="" id="meme-1">
+    <img src="./imgs/meme2.png" alt="" id="meme-2">
+    <img src="./imgs/meme3.png" alt="" id="meme-3">
+    <img src="./imgs/meme4.png" alt="" id="meme-4">
+  </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
